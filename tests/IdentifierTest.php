@@ -6,7 +6,6 @@ class IdentifierTest extends \PHPUnit\Framework\TestCase
 
         $this->assertNotEmpty($identifier->generateIdentifer());
 
-
     }
 
 
