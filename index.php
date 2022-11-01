@@ -9,7 +9,7 @@ use Entities\Identifier;
 $movie = new Movie();
 $identifier = new Identifier();
 
-$movie->setMovieID($identifier->generateIdentifer( 6));
+$movie->setMovieID($identifier->generateIdentifer(6));
 $movie->setMovieTitle('Inspector Gadget');
 $movie->setRunTime(120);
 $movie->setReleaseDate('31-10-2022');
