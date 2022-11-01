@@ -17,12 +17,9 @@ class Actor implements \JsonSerializable {
         $this->dateOfBirth = $dateOfBirth;
     }
 
-
-
     public function  getID(): string {
         return $this->id;
     }
-
 
     public function  getName(): string {
         return $this->name;
@@ -32,9 +29,7 @@ class Actor implements \JsonSerializable {
         return $this->dateOfBirth;
     }
 
-
     public function jsonSerialize() {
-
         return [
             'id' => $this->id,
             'name' => $this->name,

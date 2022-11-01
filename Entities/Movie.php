@@ -36,7 +36,6 @@ class Movie implements \JsonSerializable {
         return $this;
     }
 
-
     public function getID() {
         return $this->id;
     }
@@ -68,8 +67,6 @@ class Movie implements \JsonSerializable {
             $actor[$key] = $row->getDateOfBirth();
         }
        return array_multisort($actor, SORT_DESC, $this->actorCollection );
-
-
     }
 
     public function jsonSerialize() {
