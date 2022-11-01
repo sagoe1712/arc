@@ -2,7 +2,6 @@
 
 namespace Entities;
 
-
 class Actor implements \JsonSerializable {
     use EntityValidator;
 
